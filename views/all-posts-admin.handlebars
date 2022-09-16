@@ -1,0 +1,9 @@
+<div id="x">
+    {{#if posts.length}}
+<div class="card flex-column">
+  {{#each posts as |post|}}
+  {{> edit post}}
+  {{/each}}
+</div>
+{{/if}}
+</div>
